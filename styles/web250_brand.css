@@ -1,30 +1,42 @@
 body {
 		margin-left: 50px;
 		margin-right: 50px;
-		font-family: Georgia, san-serif;
-		color: #6E2C00 ;
-		background-color: #669999;
+		font-family: 'Luxurious Roman', cursive, san-serif;
+		color: #003153;
+		background-color: #ffa089;
 		font-size: 25px;
 }
-img {
-		height: 500px;
-		width: auto;
-}
-h1 {
+header, header nav a{
 		text-align: center;
-		color: #6E2C00;
+		color: #FFEFD5;
 		font-style: italic;
-		padding: .5px;
+		font-weight: bolder;
 }
-header, h2, h3, p  {
+.background	{
+		background-image: url("../images/textile2.png");
+		background-size: auto;
+		height: 150px;
+		background-repeat: no-repeat;
+}
+.background::before	{
+		background-image: url("../images/textile2.png");
+		background-size: auto;
+		height: 150px;
+		background-repeat: no-repeat;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+		position: relative;
+}
+h2, h3, h4, p  {
 		text-align: center;
 		margin: 0px;
-		padding: .1em
 }
 .tagline {
 		text-align: center;
 		font-style: italic;
-		border-bottom: 10px double #006666;
+		border-bottom: 10px double #003153;
 		font-size: 25px;
 }
 footer div{
@@ -32,7 +44,7 @@ footer div{
 		font-size: 20px;
 }
 a {
-		color: #6E2C00;
+		color: #003153;
 }
 a:hover {
 		color: #FFEFD5;
@@ -41,7 +53,7 @@ header a{
 		text-decoration: none;
 }
 footer a{
-		color: #6E2C00;
+		color: #003153;
 		text-decoration: none;
 }
 footer, footer	p{
@@ -62,7 +74,7 @@ main p {
 		text-align: left;
 }
 .blocking {
-		border-bottom: 10px double #006666;
+		border-bottom: 10px double #003153;
 }
 figure {
 		text-align: center;
@@ -78,8 +90,8 @@ ul {
 		display: inline-block;
 }
 .buttons {
-		 border: double #006666;
-		 color: #6E2C00;
+		 border: double #003153;
+		 color: #003153;
 		 padding: 5px 24px;
 		 text-align: center;
 		 text-decoration: none;
@@ -88,7 +100,7 @@ ul {
 		 margin: 4px 4px;
 		 cursor: pointer;
 		 font-style: normal;
-		 font-family: Georgia;
+		 font-family: 'Luxurious Roman', cursive, san-serif;
 		 width: 35px;
 }
 header, nav, main, footer {display: block;}
