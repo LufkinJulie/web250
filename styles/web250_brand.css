@@ -5,6 +5,7 @@ body {
 		color: #003153;
 		background-color: #ffa089;
 		font-size: 25px;
+		font-weight: bold;
 }
 header, header nav a{
 		text-align: center;
