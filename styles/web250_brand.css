@@ -82,6 +82,12 @@ ul {
 main div {
 	background-color: #ff8c69;
 }
+.brandtoc {
+		text-align: left;
+		list-style-type: none;
+		display: block;
+		margin-left: 525px;
+}
 .buttons {
 		 border: double #003153;
 		 color: #003153;
