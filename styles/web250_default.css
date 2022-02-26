@@ -1,41 +1,47 @@
 body {
-		margin-left: 50px;
-		margin-right: 50px;
-		font-family: Georgia, san-serif;
+		margin-left: 150px;
+		margin-right: 150px;
+		font-family: 'Gelasio', serif;
 		color: #6E2C00 ;
-		background-color: #669999;
-		font-size: 25px;
-}
-img {
-		height: 500px;
-		width: auto;
+		background: radial-gradient(circle, white, #669999);
+		font-size: 20px;
 }
 h1 {
 		text-align: center;
 		color: #6E2C00;
 		font-style: italic;
-		padding: .5px;
+		padding: 5px;
+		border-bottom: 10px double #006666;
+}
+header nav {
+		padding: 5px;
 }
 header, h2, h3, p  {
 		text-align: center;
 		margin: 0px;
 		padding: .1em
 }
+.sig {
+		font-family: 'Satisfy', cursive;
+}
 .tagline {
 		text-align: center;
 		font-style: italic;
 		border-bottom: 10px double #006666;
-		font-size: 25px;
+		font-size: 20px;
+		padding-bottom: 5px;
 }
 footer div{
+		padding-top: 5px;
 		text-align: center;
 		font-size: 20px;
+		padding: 5px;
 }
 a {
 		color: #6E2C00;
 }
 a:hover {
-		color: #FFEFD5;
+		color: #da1d81
 }
 header a{
 		text-decoration: none;
@@ -50,19 +56,16 @@ footer, footer	p{
 }
 nav {
 		text-align: center;
-		font-size: 25px;
+		font-size: 20px;
 }
 main nav {
 		text-align: center;
-		font-size: 20px;
+		font-size: 15px;
 }
 main p {
 		margin-top: 20px;
 		margin-bottom: 20px;
 		text-align: left;
-}
-.blocking {
-		border-bottom: 10px double #006666;
 }
 figure {
 		text-align: center;
@@ -70,12 +73,20 @@ figure {
 }
 figcaption {
 		text-align: center;
-		font-size: 20px;
+		font-size: 15px;
 		font-style: italic;
 }
 ul {
 		list-style-type: none;
 		display: inline-block;
+}
+.classHeaders {
+		font-family: 'Courgette', cursive;
+		font-size: 22px;
+		padding-top: 5px;
+}
+.introClasses {
+		list-style-type: circle;
 }
 .buttons {
 		 border: double #006666;

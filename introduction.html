@@ -1,41 +1,53 @@
 <!DOCTYPE html>
 <html lang = "en">
 <head>
-    <title>Julie Lufkin&nbsp;&#9885;&nbsp;WEB 250&nbsp;&#9885;&nbsp;Introduction</title>
+    <title>Julie Lufkin&nbsp;&#10061;&nbsp;WEB 250&nbsp;&#10061;&nbsp;Introduction</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Gelasio:wght@500&display=swap" rel="stylesheet">
     <link rel = "stylesheet" href = "styles/web250_default.css"/>
 	<meta charset="utf-8">
 </head>
+<header>
+<h1>Julie Lufkin&nbsp;&#10061;&nbsp;Web 250</h1>
+		<nav>
+      <a href = "brand250_toc.html" target="_blank">Home</a> &nbsp;&#10247;&nbsp;
+			<a href = "brand_250.html" target="_blank">Brand</a> &nbsp;&#10247;&nbsp;
+			<a href = "contract.html" target="_blank">Contract</a> &nbsp;&#10247;&nbsp;
+			<a href = "introduction.html" target="_blank">Introduction</a>
+		</nav>
+</header>
 <body>
 	<div data-include = "components/header_250.html"></div>
 <main>
 	<h2>Introduction</h2>
 	<figure>
-		<img src = "images/allie_me_babe.jpg" alt = "babe" />
+		<img src = "images/allie_me_babe2.jpg" alt = "babe" />
 		<figcaption class = "babe">My husband and I visiting Babe the Blue Ox</figcaption>
 	</figure>
 	<ul>
 		<li>
-			<strong>Personal Background:&nbsp;</strong>
+			<strong class = "classHeaders ">Personal Background:&nbsp;</strong>
       I moved to the Charlotte area back in 1998, originally from Boston MA.  I
       have lived all over the country from TX to WA.  I am married and have a cat
       (Guinness) and a dog (Newton).
 		</li>
 		<li>
-			<strong>Academic Background:</strong>
+			<strong class = "classHeaders ">Academic Background:</strong>
 			 I have a degree in Interior Design, Textile Surface Design and currently
        I am working on my Full Stack Programing Degree.
 		</li>
 		<li>
-			<strong>Background in this subject:</strong>
+			<strong class = "classHeaders ">Background in this subject:</strong>
       I have no background in computers, I have mainly worked in retail merchandising.
 		</li>
 		<li>
-			<strong>Primary Computer Platform:</strong>
+			<strong class = "classHeaders ">Primary Computer Platform:</strong>
 			HP laptop
 		</li>
 		<li>
-			<strong>Courses I'm Taking, & Why:</strong><br>
-			<ul>
+			<strong class = "classHeaders ">Courses I'm Taking, & Why:</strong><br>
+			<ul class = "introClasses">
 				<li>CSC 221 - Advanced Python Programing - Required to finishing my degree</li>
 				<li>CSC 151 - JAVA Programing - Retaking, I want to take higher level JAVA classes</li>
         <li>WEB 250 - Database Driven Websites - Required to finishing my degree</li>
@@ -43,16 +55,37 @@
       </ul>
 		</li>
 		<li>
-			<strong>Something to Remember Me By:&nbsp;</strong>
+			<strong class = "classHeaders ">Something to Remember Me By:&nbsp;</strong>
       I love playing with power tools and baking<br>
-     (I wish I had more time for hobbies, maybe after I graduate in the Spring)
+     (I wish I had more time for hobbies, maybe after I graduate in the Spring).
 		</li>
 		<li>
-			<strong>I'd Also Like to Share:&nbsp;</strong>
-			 I am a huge animal lover (not too fond of people)
+			<strong class = "classHeaders ">I'd Also Like to Share:&nbsp;</strong>
+			 I am a huge animal lover (not too fond of people).
 		</li>
 	</ul>
 </main>
+<footer>
+	<div class = "tagline">This old dog did learn some new tricks</div>
+	<div>
+		<nav>
+		<a href = "https://github.com/LufkinJulie">GitHub</a> &nbsp;&#10247;&nbsp;
+		<a href = "https://lufkinjulie.github.io/">GitHub Pages</a> &nbsp;&#10247;&nbsp;
+		<a href = "https://github.com/LufkinJulie/web250">GitHub Course Page</a> &nbsp;&#10247;&nbsp;
+		<a href = "https://www.freecodecamp.org/lufkinj">Freecodecamp</a> &nbsp;&#10247;&nbsp;
+		<a href = "https://www.codecademy.com/profiles/LufkinJ">Codecademy</a> &nbsp;&#10247;&nbsp;
+		<a href = "https://www.linkedin.com/in/julie-lufkin-0a611a52/">LinkedIn </a>
+		</nav>
+	</div>
+	<p>Site by Old Dog Coding &copy;2022</p>
+	<a id = "htmlButton" href = "https://validator.w3.org/check?uri=" class = "buttons">HTML</a> &nbsp;
+	<a id = "cssButton" href = "https://jigsaw.w3.org/css-validator/validator?uri=" class = "buttons">CSS</a>
+
+	<script>
+		document.getElementById("htmlButton").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+		document.getElementById("cssButton").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+	</script>
+</footer>
   <div data-include = "components/footer_nav.html"></div>
   <script src ="scripts/scriptDynamic.js"></script>
 </body>
