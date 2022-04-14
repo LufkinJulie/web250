@@ -12,6 +12,13 @@ header, header nav a{
 		color: #FFEFD5;
 		/* font-style: italic; */
 		font-weight: bolder;
+		font-size: 30px;
+		
+}
+h1 {
+	margin: 0;
+	padding-top: 10px;
+	
 }
 .background	{
 		background-image: url("../images/textile2.png");
