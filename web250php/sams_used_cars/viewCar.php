@@ -1,11 +1,12 @@
 <html>
     <head>
-        <title>Sam's Used Cars</html>
+        <title>Sam's Used Cars</title>
         <style>
         body
         {
         background-color: #ffa089;
         color: #003153;
+        text-align: center;
         }
         h1,h3
         {
@@ -16,6 +17,7 @@
 
     <body>
         <h1>Sam's Used Cars</h1>
+        <hr>
         <?php include 'db.php';
         $vin = $_GET['VIN'];
         $query = "SELECT * FROM inventory WHERE VIN='$vin'";
@@ -25,7 +27,7 @@
         }
         else
         {
-            echo "Sorry, a vehicle with VIN of $vin cannot be found " . mysqli_error()."<br>";
+            echo "Sorry, a vehicle with VIN of $vin cannot be found " . mysql_error()."<br>";
         }
         // Loop through all the rows returned by the query, creating a table row for each
         while ($result_ar = mysqli_fetch_assoc($result)) {

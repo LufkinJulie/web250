@@ -34,7 +34,7 @@ else
 
         echo 'Connected successfully to mySQL.<BR>';
         $file_name = $_FILES["file"]["name"];
-        $query = "INSERT INTO images (VIN, ImageFile) VALUES ('$vin','$file_name')";
+        $query = "INSERT INTO ../images (VIN, ImageFile) VALUES ('$vin','$file_name')";
         echo $query."<br>\n";
         echo "<a href='AddImage.php?VIN=";
         echo $vin;
@@ -56,5 +56,5 @@ else
     }
 }
 
-include 'footer.php'
+
 ?>

@@ -10,7 +10,7 @@
 </head>
 <body>
 <header class = "background">
-	<h1 >Julie Lufkin&nbsp;&#10061;&nbsp;Web 250</h1>
+	<h1 >Lufkin's Linens&nbsp;&#8466;&#8466;&nbsp</h1>
 		<nav>
 			<a href= "indexx.php?p=toc_index.php" >Home</a> &nbsp;&#10247;&nbsp;
 			<a href= "indexx.php?p=brand_250.php" >Brand</a> &nbsp;&#10247;&nbsp;
