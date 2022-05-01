@@ -62,7 +62,7 @@
                 <p style="text-align:center;"><strong>How would you like to contacted?</strong><br>
                 <input type="radio" id="contact" name="contact" value="Phone" />
                 <label for="phone">Phone</label><br>
-                <input type="radio" id="contact" name="contact" value="Email"  />
+                <input type="radio" id="contact" name="contact" value="Email"  checked/>
                 <label for="email">Email</label><br>
                 </p>
                 <br>
@@ -71,7 +71,7 @@
                 <p style="text-align:center; "><strong>Products your interested in!</strong><br>
                 <input type="checkbox"  name="products" value="Linens">
                 <label for="linens">Linens</label><br>
-                <input type="checkbox" name="products" value="Wallpaper">
+                <input type="checkbox" name="products" value="Wallpaper" checked>
                 <label for="wallpaper">Wallpaper</label><br>
                 <input type="checkbox" name="products" value="Fabric by the yard">
                 <label for="fabric_by_the_yard">Fabric by the yard</label><br>
