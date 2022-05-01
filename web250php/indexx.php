@@ -5,6 +5,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Parisienne&family=Source+Serif+Pro:wght@300&display=swap" rel="stylesheet">
+	<!-- <script src = "scripts/forms.js"></script> -->
 	<link rel = "stylesheet" type = "text/css" href = "styles/default.css"/>
 	<meta charset="utf-8">
 </head>
@@ -16,7 +17,10 @@
 			<a href= "indexx.php?p=brand_250.php" >Brand</a> &nbsp;&#10247;&nbsp;
 			<a href = "indexx.php?p=contract.php">Contract</a> &nbsp;&#10247;&nbsp;
 			<a href = "indexx.php?p=introduction.php">Introduction</a> &nbsp;&#10247;&nbsp;
-			<a href = "indexx.php?p=sams_used_cars/sams_used_cars.html">Sam's Used Cars</a>
+			<a href = "indexx.php?p=sams_used_cars/sams_used_cars.html">Sam's Used Cars</a> &nbsp;&#10247;&nbsp;
+			<a href = "indexx.php?p=m6_forms2.php">Forms</a> &nbsp;&#10247;&nbsp;
+			<a href = "indexx.php?p=m7_everythingform.php">Everything Forms</a>
+
 		</nav>
 </header>
     <?php

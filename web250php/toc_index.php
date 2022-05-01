@@ -10,6 +10,8 @@
 		<li><a href = "?p=introduction.php">Introduction</a></li>
 		<li><a href = "?p=brand_250.php">Brand</a></li>
 		<li><a href = "?p=sams_used_cars/sams_used_cars.html">Sam's Used Cars</a></li>
+		<li><a href = "?p=m6_forms2.php">Forms</a></li>
+		<li><a href = "?p=m7_everythingform.php">Everything Forms</a></li>
 	</ul>
 </div>
 </main>
