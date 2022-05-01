@@ -8,7 +8,7 @@
 		<a href = "https://www.freecodecamp.org/lufkinj">Freecodecamp</a> &nbsp;&#10247;&nbsp;
 		<a href = "https://www.codecademy.com/profiles/LufkinJ">Codecademy</a> &nbsp;&#10247;&nbsp;
 		<a href = "https://www.linkedin.com/in/julie-lufkin-0a611a52/">LinkedIn </a> &nbsp;&#10247;&nbsp;
-		<a href = "http://julielufkin.lovestoblog.com/web250php/index.php">Web Page </a>
+		<a href = "http://julielufkin.lovestoblog.com/web250php/indexx.php?p=toc_index.php">Web Page </a>
 		</nav>
 	</div>
 	<p>Site by Old Dog Coding &copy;2022</p>
