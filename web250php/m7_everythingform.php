@@ -62,8 +62,11 @@
                 <p style="text-align:center;"><strong>How would you like to contacted?</strong><br>
                 <input type="radio" id="contact" name="contact" value="Phone" />
                 <label for="phone">Phone</label><br>
-                <input type="radio" id="contact" name="contact" value="Email"  checked/>
+                <input type="radio" id="contact" name="contact" value="Email" />
                 <label for="email">Email</label><br>
+                <input type="radio" id="contact" name="contact" value="Both"  checked/>
+                <label for="both">Both</label><br>
+
                 </p>
                 <br>
                 </div>
