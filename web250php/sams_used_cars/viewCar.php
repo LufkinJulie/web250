@@ -47,7 +47,8 @@
         echo "<p>Interior Color: $interior </p>";
 
         $mysqli->close();
-        
+        include 'footer.php'
+
         ?>
 
     </body>

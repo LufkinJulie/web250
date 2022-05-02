@@ -63,6 +63,8 @@ else
  echo "Error entering $VIN into database: " . mysql_error()."<br>";
 }
 $mysqli->close();
+include 'footer.php'
+
 ?>
     
 </body>

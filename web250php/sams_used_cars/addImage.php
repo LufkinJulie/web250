@@ -75,6 +75,7 @@ if ($result = $mysqli->query($query)) {
 }
 }
 $mysqli->close();
+include 'footer.php'
 
 ?>
 </body>

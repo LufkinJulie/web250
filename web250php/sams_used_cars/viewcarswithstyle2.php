@@ -100,6 +100,8 @@
     }
     echo "</table>";
     $mysqli->close();
+    include 'footer.php'
+
     ?>
     </body>
 

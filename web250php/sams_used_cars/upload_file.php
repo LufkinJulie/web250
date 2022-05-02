@@ -34,7 +34,7 @@ else
 
         echo 'Connected successfully to mySQL.<BR>';
         $file_name = $_FILES["file"]["name"];
-        $query = "INSERT INTO ../images (VIN, ImageFile) VALUES ('$vin','$file_name')";
+        $query = "INSERT INTO  images (VIN, ImageFile) VALUES ('$vin','$file_name')";
         echo $query."<br>\n";
         echo "<a href='AddImage.php?VIN=";
         echo $vin;
@@ -46,7 +46,7 @@ else
         }
         else
         {
-            echo "Error entering $VIN into database: ".$mysqli->error."<br>";
+            echo "Error entering $VIN into database: ". mysql_error."<br>";
         }
         $mysqli->close();
         echo "<img src='$imagename' width='150'><br>";
