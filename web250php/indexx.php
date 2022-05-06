@@ -20,7 +20,9 @@
 			<a href = "indexx.php?p=sams_used_cars/sams_used_cars.html">Sam's Used Cars</a> &nbsp;&#10247;&nbsp;
 			<a href = "indexx.php?p=m6_forms2.php">Forms</a> &nbsp;&#10247;&nbsp;
 			<a href = "indexx.php?p=m7_everythingform.php">Everything Forms</a><br>
-			<a href = "indexx.php?p=m8_math_string.php">Demonstrate Math, Dates & Strings</a>
+			<a href = "indexx.php?p=m8_math_string.php">Demonstrate Math, Dates & Strings</a> &nbsp;&#10247;&nbsp;
+			<a href = "indexx.php?p=fizzbuzzbangeverything.php">Fizz Buzz Bang Everything!</a>
+
 		</nav>
 </header>
     <?php
