@@ -21,7 +21,7 @@ header, header nav a{
 }
 .background::before	{
 		background-image: url("../images/textile2.png");
-		background-size: auto;
+		/* background-size: auto; */
 		height: 150px;
 		background-repeat: no-repeat;
 		top: 0px;
