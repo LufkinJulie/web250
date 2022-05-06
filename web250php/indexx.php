@@ -19,8 +19,8 @@
 			<a href = "indexx.php?p=introduction.php">Introduction</a> &nbsp;&#10247;&nbsp;
 			<a href = "indexx.php?p=sams_used_cars/sams_used_cars.html">Sam's Used Cars</a> &nbsp;&#10247;&nbsp;
 			<a href = "indexx.php?p=m6_forms2.php">Forms</a> &nbsp;&#10247;&nbsp;
-			<a href = "indexx.php?p=m7_everythingform.php">Everything Forms</a>
-
+			<a href = "indexx.php?p=m7_everythingform.php">Everything Forms</a><br>
+			<a href = "indexx.php?p=m8_math_string.php">Demonstrate Math, Dates & Strings</a>
 		</nav>
 </header>
     <?php
@@ -30,7 +30,7 @@
 	if($sPage == "") {  $sPage = "toc_index.php"; }
 	include($sPage);
     ?>
-    
+    <div style="padding-bottom:25px;">
 	<footer>
 	<div class = "tagline">Elevating your Linens to Luxury!</div>
 	<div>
@@ -53,5 +53,6 @@
 		document.getElementById("cssButton").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
 	</script>
 </footer>
+</div>
 </body>
 </html>
